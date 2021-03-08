@@ -23,7 +23,6 @@ const addNotesToLayers = {
 
     olElement.innerHTML += liElement;
 
-    Todos.push(inputElement.value)
     inputElement.value = '';
   },
 

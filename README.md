@@ -10,10 +10,11 @@ This project was build using pure HTML, CSS and JavaScript.
 
 To start this project just clone this repository and open the `index.html` file.
 
-
 #### Contact
 
 Feel free to contact me :).
 
 Linkedin: https://www.linkedin.com/in/william-ferreira-3629a61b0/
 Email: williamferreira132003@gmail.com
+
+Link to deploy: https://todo-eisenhower.vercel.app/

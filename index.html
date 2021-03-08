@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+  <script src="./script.js" defer></script>
+  <link rel="stylesheet" href="./style.css">
+  <title>TodoEisen</title>
+</head>
+<body>
+  <div id="container">
+    <h1>Todo-Eisenhower</h1>
+    <div class="layersContainer">
+      <div class="layer1">
+        <input type="text" placeholder="Type your to do..." onchange="addNotesToLayers.addNewTodo1()">
+        <ol>
+        </ol>
+      </div>
+      <div class="layer2">
+        <input type="text" placeholder="Type your to do..." onchange="addNotesToLayers.addNewTodo2()">
+        <ol>
+
+        </ol>
+      </div>
+      <div class="layer3">
+        <input type="text" placeholder="Type your to do..." onchange="addNotesToLayers.addNewTodo3()">
+        <ol>
+
+        </ol>
+      </div>
+      <div class="layer4">
+        <input type="text" placeholder="Type your to do..." onchange="addNotesToLayers.addNewTodo4()">
+        <ol>
+
+        </ol>
+      </div>
+    </div>
+    <button class="showModal" onclick="Modal.show()">?</button>
+  </div>
+
+  <div class="modal-overlay out">
+    <div class="modal">
+      <div>
+        <h2>Info</h2>
+        <button onclick="Modal.hide()">X</button>
+      </div>
+      
+      <p>
+        A ideia é que todas as suas tarefas podem ser distribuídas em 4 quadrantes, com dois eixos: um de Importância e outro de Urgência. Esses 4 quadrantes recebem um valor de 1 a 4 baseado em sua prioridade.
+      </p>
+      <ul>
+        <li>- Vemelho = Maior prioridade e urgências.</li>
+        <li>- Amarelo = Importante, mas não urgente.</li>
+        <li>- Azul = Urgente, mas não inpotante.</li>
+        <li>- Verde = Não emportante e nem urgente.</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

@@ -13,8 +13,6 @@ const Modal = {
   }
 }
 
-const Todos = [] 
-
 const addNotesToLayers = {
   addNewTodo1() {
     let inputElement = document.querySelector('.layer1 input');
